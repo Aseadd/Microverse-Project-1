@@ -1057,7 +1057,7 @@ h4 {
   left: 20px;
   background-image: url(images/back.svg);
   background-repeat: no-repeat;
-  background-position: 250px 850px;
+  background-position: 250px 710px;
 }
 
 #contact-title {
@@ -1169,7 +1169,7 @@ button {
   left: calc(50% - 134px / 2 - 0.5px);
   bottom: 8px;
   background: #0d151e;
-  border-radius: 10px;
+  border-radius: 20px;
   top: 6580px;
 }
 
