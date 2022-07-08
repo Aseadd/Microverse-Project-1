@@ -1232,7 +1232,7 @@ button {
     order: 0;
     flex-grow: 0;
   }
-  
+
   .headline {
     display: flex;
     flex-direction: column;
