@@ -1232,10 +1232,6 @@ button {
     order: 0;
     flex-grow: 0;
   }
-
-  .menu-icon {
-    display: block;
-  }
   
   .headline {
     display: flex;
