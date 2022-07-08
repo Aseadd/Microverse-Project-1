@@ -60,8 +60,7 @@ a:link {
 }
 
 a:hover {
-  background: deeppink;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .nav-menu a {
@@ -1177,14 +1176,27 @@ button {
   border: 2px solid blue;
 }
 
+.bottom-nav {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 327px;
+  height: 72px;
+  justify-content: center;
+  padding: 10px;
+  left: 10px;
+  top: 6290px;
+}
+
 @media only screen and (min-width: 768px) {
   .toolbar {
-    width: 100%;
-    height: 100%;
+    width: 1280px;
+    height: 3250px;
+    margin-left: 30px;
   }
 
   .nav-menu {
-    width: 80%;
+    width: 1150px;
     display: flex;
     flex-direction: row;
     left: 0;
@@ -1222,6 +1234,10 @@ button {
   }
 
   .menu-icon {
+    display: block;
+  }
+
+  .menu-icon {
     right: 0;
   }
 
@@ -1232,7 +1248,7 @@ button {
     padding: 160px 0;
     gap: 24px;
     position: absolute;
-    width: 75%;
+    width: 920px;
     height: 756px;
     left: 230px;
     top: 50px;
@@ -1250,25 +1266,26 @@ button {
   }
 
   .supporting-text {
-    width: 750px;
+    width: 710px;
     height: 70px;
     margin-top: 45px;
     text-align: center;
     font-size: 20px;
+    justify-content: center;
   }
 
   .recent-works {
     padding: 80px 0;
     gap: 48px;
     position: absolute;
-    width: 85%;
+    width: 1171px;
     height: 1185px;
-    left: 135px;
+    left: 105px;
     top: 820px;
   }
 
   .project-text {
-    width: 50%;
+    width: 337px;
     height: 48px;
   }
 
@@ -1276,7 +1293,7 @@ button {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    width: 50%;
+    width: 447px;
   }
 
   .indicator {
@@ -1287,41 +1304,41 @@ button {
     flex-direction: row;
     padding: 4px 0;
     gap: 24px;
-    width: 85%;
+    width: 1171px;
     height: 482px;
   }
 
   .card-enable1 {
-    width: 33%;
+    width: 33.33%;
   }
 
   .img-placeholder1 {
     display: flex;
     flex-direction: row;
-    width: 32%;
+    width: 33%;
     left: 0;
   }
 
   .img-placeholder2 {
     display: flex;
     flex-direction: row;
-    width: 32%;
-    left: 33%;
+    width: 33%;
+    left: 33.33%;
     top: 220px;
   }
 
   .img-placeholder3 {
     display: flex;
     flex-direction: row;
-    width: 32%;
-    left: 66%;
+    width: 33%;
+    left: 66.66%;
     top: 220px;
   }
 
   .img-placeholder4 {
     display: flex;
     flex-direction: row;
-    width: 32%;
+    width: 33%;
     left: 0;
     top: 710px;
   }
@@ -1329,16 +1346,16 @@ button {
   .img-placeholder5 {
     display: flex;
     flex-direction: row;
-    width: 32%;
-    left: 33%;
+    width: 33%;
+    left: 33.33%;
     top: 710px;
   }
 
   .img-placeholder6 {
     display: flex;
     flex-direction: row;
-    width: 32%;
-    left: 66%;
+    width: 33%;
+    left: 66.66%;
     top: 710px;
   }
 
@@ -1347,34 +1364,35 @@ button {
   }
 
   .project-name {
-    font-size: 32px;
+    font-size: 24px;
   }
 
   .about-me {
     padding: 80px 0;
     gap: 48px;
     position: absolute;
-    width: 85%;
+    width: 1171px;
     height: 780px;
-    left: 135px;
+    left: 105px;
     top: 2010px;
   }
 
   .information {
     gap: 24px;
-    width: 80%;
+    width: 920px;
     height: 240px;
   }
 
   .aboutme-text {
-    width: 50%;
+    width: 207px;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
+    margin-left: 0;
   }
 
   .description-text {
-    width: 80%;
+    width: 920px;
     height: 48px;
     font-weight: 400;
     font-size: 20px;
@@ -1393,8 +1411,7 @@ button {
   .lang-placeholder {
     display: flex;
     flex-direction: row;
-    width: 30%;
-    border: 1px solid teal;
+    width: 33%;
     left: 0;
   }
 
@@ -1411,7 +1428,6 @@ button {
     display: flex;
     flex-direction: row;
     width: 33%;
-    border: 1px solid teal;
     left: 67%;
     top: 420px;
   }
@@ -1423,9 +1439,9 @@ button {
     padding: 80px 0;
     gap: 24px;
     position: absolute;
-    width: 85%;
+    width: 1171px;
     height: 400px;
-    left: 135px;
+    left: 105px;
     top: 2800px;
   }
 
@@ -1443,7 +1459,7 @@ button {
     gap: 24px;
     width: 652px;
     height: 150px;
-    top: 5px;
+    top: 25px;
     order: 0;
   }
 
@@ -1465,20 +1481,15 @@ button {
     display: flex;
     flex-direction: row;
     position: absolute;
-    width: 800px;
+    width: 1171px;
     height: 72px;
-  }
-
-  .bottom-social-media {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0;
-    position: absolute;
-    width: 800px;
-    height: 40px;
-    left: 620px;
+    justify-content: center;
+    padding: 10px;
+    left: 105px;
     top: 3250px;
+    font-size: 24px;
+    gap: 10px;
+    border-radius: 50%;
   }
 
   .footer {
@@ -1487,6 +1498,13 @@ button {
     top: 2300px;
     width: 200px;
     height: 50px;
-    background-color: #36b37e;
+  }
+
+  .welcome {
+    margin-left: 50px;
+  }
+
+  .menu-icon {
+    display: none;
   }
 }
