@@ -1236,11 +1236,7 @@ button {
   .menu-icon {
     display: block;
   }
-
-  .menu-icon {
-    right: 0;
-  }
-
+  
   .headline {
     display: flex;
     flex-direction: column;
