@@ -17,7 +17,7 @@
 
 .nav-menu {
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   position: absolute;
   width: 255px;
@@ -51,7 +51,7 @@ a:link {
 .menu-lists {
   width: 63px;
   height: 20px;
-  font-family: 'Inter';
+  font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -69,7 +69,7 @@ a:link {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 160px 0px;
+  padding: 160px 0;
   gap: 24px;
   position: absolute;
   width: 920px;
@@ -85,14 +85,14 @@ a:link {
 #headline-title {
   width: 920px;
   height: 50px;
-  font-family: 'Inter';
+  font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
   line-height: 60px;
   text-align: center;
   letter-spacing: 0.37px;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -101,7 +101,7 @@ a:link {
 #headline-subtitle {
   width: 920px;
   height: 50px;
-  font-family: 'Inter';
+  font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
@@ -117,13 +117,13 @@ a:link {
 #headline-support-text {
   width: 640px;
   height: 70px;
-  font-family: 'Inter';
+  font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -133,7 +133,7 @@ a:link {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   width: 200px;
   height: 40px;
   flex: none;
@@ -145,7 +145,7 @@ a:link {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   width: 200px;
   height: 40px;
   flex: none;
@@ -154,16 +154,16 @@ a:link {
 }
 
 .social-media-item {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 8px;
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .fa {
@@ -195,10 +195,10 @@ a:link {
   position: absolute;
   width: 40px;
   height: 40px;
-  left: calc(50% - 40px/2);
+  left: calc(50% - 40px/ 2);
   bottom: 24px;
   background: #fff;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 32px;
 }
 
@@ -216,7 +216,7 @@ a:link {
   height: 8px;
   left: 5px;
   top: 8px;
-  background: #172B4D;
+  background: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -228,7 +228,7 @@ a:link {
   right: 25%;
   top: 37.5%;
   bottom: 37.5%;
-  border: 2px solid #ACB7C3;
+  border: 2px solid #acb7c3;
 }
 
 .icon-container {
@@ -238,14 +238,14 @@ a:link {
   right: 0%;
   top: 0%;
   bottom: 0%;
-  background: #E7EAEF;
+  background: #e7eaef;
   border-radius: 4px;
 }
 
 .recent-works {
   display: grid;
   align-items: center;
-  padding: 80px 0px;
+  padding: 80px 0;
   gap: 48px;
   position: absolute;
   width: 1171px;
@@ -266,7 +266,7 @@ a:link {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -277,7 +277,7 @@ a:link {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 1171px;
   height: 988px;
@@ -290,7 +290,7 @@ a:link {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 4px 0px;
+  padding: 4px 0;
   gap: 24px;
   width: 1155px;
   height: 482px;
@@ -303,7 +303,7 @@ a:link {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 4px 0px;
+  padding: 4px 0;
   gap: 24px;
   width: 1155px;
   height: 482px;
@@ -338,7 +338,7 @@ a:link {
 
 .placeholder {
   position: absolute;
-  background: #EBF0EE;
+  background: #ebf0ee;
   border-radius: 8px;
   width: 33.33333%;
   height: 474px;
@@ -359,7 +359,7 @@ a:link {
 #project-title {
   width: 337px;
   height: 57px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -367,7 +367,7 @@ a:link {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -377,7 +377,7 @@ a:link {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   width: 305px;
   height: 32px;
@@ -393,7 +393,7 @@ a:link {
   padding: 8px 12px;
   width: 103px;
   height: 32px;
-  background: #EBF0EE;
+  background: #ebf0ee;
   border-radius: 4px;
   flex: none;
   order: 0;
@@ -407,7 +407,7 @@ a:link {
   padding: 8px 12px;
   width: 45px;
   height: 32px;
-  background: #EBF0EE;
+  background: #ebf0ee;
   border-radius: 4px;
   flex: none;
   order: 1;
@@ -421,7 +421,7 @@ a:link {
   padding: 8px 12px;
   width: 82px;
   height: 32px;
-  background: #EBF0EE;
+  background: #ebf0ee;
   border-radius: 4px;
   flex: none;
   order: 2;
@@ -435,7 +435,7 @@ a:link {
   padding: 8px 12px;
   width: 51px;
   height: 32px;
-  background: #EBF0EE;
+  background: #ebf0ee;
   border-radius: 4px;
   flex: none;
   order: 3;
@@ -451,7 +451,7 @@ a:link {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -466,14 +466,14 @@ a:link {
   height: 48px;
   left: 108px;
   bottom: 8px;
-  background: #36B37F;
+  background: #36b37f;
   border-radius: 4px;
 }
 
 #button-text {
   width: 100%;
   height: 24px;
-  font-family: 'Inter';
+  font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -482,7 +482,7 @@ a:link {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -492,7 +492,7 @@ a:link {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 80px 0px;
+  padding: 80px 0;
   gap: 48px;
   position: absolute;
   width: 1171px;
@@ -506,7 +506,7 @@ a:link {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 920px;
   height: 240px;
@@ -518,7 +518,7 @@ a:link {
 #personal-title {
   width: 447px;
   height: 48px;
-  font-family: 'Inter';
+  font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -526,7 +526,7 @@ a:link {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -535,13 +535,13 @@ a:link {
 #personal-detail {
   width: 920px;
   height: 96px;
-  font-family: 'Inter';
+  font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  color: #42526E;
+  color: #42526e;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -555,7 +555,7 @@ a:link {
   gap: 10px;
   width: 159px;
   height: 48px;
-  background: #36B37F;
+  background: #36b37f;
   border-radius: 4px;
   flex: none;
   order: 2;
@@ -603,7 +603,7 @@ a:link {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   position: absolute;
   width: 337px;
@@ -613,8 +613,8 @@ a:link {
 
 .skill-placeholder {
   position: absolute;
-  background: #EBF0EE;
-  border: 1px solid #C1C7D0;
+  background: #ebf0ee;
+  border: 1px solid #c1c7d0;
   border-radius: 8px;
   width: 369px;
   height: 352px;
@@ -623,7 +623,7 @@ a:link {
 #title {
   width: 337px;
   height: 32px;
-  font-family: 'Inter';
+  font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -639,7 +639,7 @@ a:link {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   width: 271px;
   height: 40px;
@@ -654,7 +654,7 @@ a:link {
   align-items: center;
   padding: 12px;
   height: 40px;
-  background: #FFFFFF;
+  background: #fff;
   border-radius: 8px;
   flex: none;
   order: 0;
@@ -664,13 +664,13 @@ a:link {
 #item-text {
   width: 100%;
   height: 16px;
-  font-family: 'Inter';
+  font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #36B37E;
+  color: #36b37e;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -680,7 +680,7 @@ a:link {
   position: absolute;
   width: 369px;
   height: 128px;
-  left: calc(50% - 369px/2);
+  left: calc(50% - 369px / 2);
   top: 16px;
 }
 
@@ -688,15 +688,15 @@ a:link {
   position: absolute;
   width: 48px;
   height: 48px;
-  left: calc(50% - 48px/2 + 0.5px);
-  top: calc(50% - 48px/2);
+  left: calc(50% - 48px / 2 + 0.5px);
+  top: calc(50% - 48px / 2);
 }
 
 .contact-form {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 80px 0px;
+  padding: 80px 0;
   gap: 24px;
   position: absolute;
   width: 1171px;
@@ -710,26 +710,26 @@ a:link {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 463px;
   height: 256px;
   flex: none;
   order: 0;
   flex-grow: 0;
-  font-family: 'Inter';
+  font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .user-form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 684px;
   height: 330px;
@@ -742,7 +742,7 @@ a:link {
 #lname,
 #email,
 #msg {
-  top: calc(50% - 18px/2);
+  top: calc(50% - 18px / 2);
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -750,7 +750,7 @@ a:link {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #6B778C;
+  color: #6b778c;
 }
 
 #fname,
@@ -763,6 +763,7 @@ a:link {
 #msg {
   width: 652px;
 }
+
 #fname:hover,
 #lname:hover,
 #email:hover,
@@ -778,7 +779,7 @@ a:link {
   gap: 10px;
   width: 140px;
   height: 48px;
-  background: #36B37F;
+  background: #36b37f;
   border-radius: 4px;
   flex: none;
   order: 3;
@@ -786,7 +787,7 @@ a:link {
   border: 1px solid white;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
   .header {
     width: 100%;
   }
@@ -922,5 +923,4 @@ a:link {
   .user-form {
     width: 100%;
   }
-
 }
