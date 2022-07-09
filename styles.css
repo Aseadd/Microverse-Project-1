@@ -1356,6 +1356,7 @@ button {
 
   .project-name {
     font-size: 24px;
+    font-family: 'Poppins', serif;
   }
 
   .about-me {
@@ -1433,12 +1434,13 @@ button {
     height: 400px;
     left: 30px;
     top: 2800px;
+    border: 1px solid black;
   }
 
   #contact-title {
     padding: 0;
     gap: 24px;
-    width: 463px;
+    width: 500px;
     height: 256px;
     font-size: 30px;
   }
@@ -1447,7 +1449,6 @@ button {
     align-items: flex-start;
     padding: 0;
     gap: 24px;
-    width: 652px;
     height: 150px;
     top: 25px;
     order: 0;
@@ -1464,7 +1465,9 @@ button {
   #name,
   #email,
   #msg {
-    width: 652px;
+    width: 661px;
+    border: 1px solid #60c095;
+    color: #6b778c;
   }
 
   .bottom-nav {
