@@ -104,8 +104,18 @@ h1 {
 }
 
 h4 {
-  color: green;
+  animation: change-subtitle-color 2s ease infinite alternate 1s;
   font-size: 36px;
+}
+
+@keyframe change-subtitle-color {
+  from {
+    color: green;
+  }
+  
+  to {
+    color: red;
+  }
 }
 
 .supporting-text {
