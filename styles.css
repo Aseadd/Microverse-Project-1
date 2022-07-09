@@ -1190,13 +1190,12 @@ button {
 
 @media only screen and (min-width: 768px) {
   .toolbar {
-    width: 1280px;
+    width: 100%;
     height: 3250px;
-    margin-left: 30px;
   }
 
   .nav-menu {
-    width: 1150px;
+    width: 95%;
     display: flex;
     flex-direction: row;
     left: 0;
@@ -1240,9 +1239,9 @@ button {
     padding: 160px 0;
     gap: 24px;
     position: absolute;
-    width: 920px;
+    width: 93%;
     height: 756px;
-    left: 230px;
+    left: 50px;
     top: 50px;
     background-image: url(images/Header-background.svg);
     background-repeat: no-repeat;
@@ -1270,9 +1269,9 @@ button {
     padding: 80px 0;
     gap: 48px;
     position: absolute;
-    width: 1171px;
+    width: 95%;
     height: 1185px;
-    left: 105px;
+    left: 30px;
     top: 820px;
   }
 
@@ -1296,7 +1295,7 @@ button {
     flex-direction: row;
     padding: 4px 0;
     gap: 24px;
-    width: 1171px;
+    width: 95%;
     height: 482px;
   }
 
@@ -1307,14 +1306,14 @@ button {
   .img-placeholder1 {
     display: flex;
     flex-direction: row;
-    width: 33%;
+    width: 32.5%;
     left: 0;
   }
 
   .img-placeholder2 {
     display: flex;
     flex-direction: row;
-    width: 33%;
+    width: 32.5%;
     left: 33.33%;
     top: 220px;
   }
@@ -1322,7 +1321,7 @@ button {
   .img-placeholder3 {
     display: flex;
     flex-direction: row;
-    width: 33%;
+    width: 32.5%;
     left: 66.66%;
     top: 220px;
   }
@@ -1330,25 +1329,25 @@ button {
   .img-placeholder4 {
     display: flex;
     flex-direction: row;
-    width: 33%;
+    width: 32.5%;
     left: 0;
-    top: 710px;
+    top: 709px;
   }
 
   .img-placeholder5 {
     display: flex;
     flex-direction: row;
-    width: 33%;
+    width: 32.5%;
     left: 33.33%;
-    top: 710px;
+    top: 709px;
   }
 
   .img-placeholder6 {
     display: flex;
     flex-direction: row;
-    width: 33%;
+    width: 32.5%;
     left: 66.66%;
-    top: 710px;
+    top: 709px;
   }
 
   .project-title {
@@ -1363,9 +1362,9 @@ button {
     padding: 80px 0;
     gap: 48px;
     position: absolute;
-    width: 1171px;
+    width: 95%;
     height: 780px;
-    left: 105px;
+    left: 30px;
     top: 2010px;
   }
 
@@ -1403,23 +1402,22 @@ button {
   .lang-placeholder {
     display: flex;
     flex-direction: row;
-    width: 33%;
+    width: 32.5%;
     left: 0;
   }
 
   .frameworks-placeholder {
     display: flex;
     flex-direction: row;
-    width: 33%;
-    border: 1px solid teal;
-    left: 32%;
+    width: 32.5%;
+    left: 33.5%;
     top: 420px;
   }
 
   .skills-placeholder {
     display: flex;
     flex-direction: row;
-    width: 33%;
+    width: 32.5%;
     left: 67%;
     top: 420px;
   }
@@ -1431,9 +1429,9 @@ button {
     padding: 80px 0;
     gap: 24px;
     position: absolute;
-    width: 1171px;
+    width: 95%;
     height: 400px;
-    left: 105px;
+    left: 30px;
     top: 2800px;
   }
 
@@ -1473,15 +1471,15 @@ button {
     display: flex;
     flex-direction: row;
     position: absolute;
-    width: 1171px;
+    width: 95%;
     height: 72px;
     justify-content: center;
     padding: 10px;
-    left: 105px;
+    left: 30px;
     top: 3250px;
     font-size: 24px;
     gap: 10px;
-    border-radius: 50%;
+    border-radius: 10px;
   }
 
   .footer {
