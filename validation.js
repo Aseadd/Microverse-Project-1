@@ -8,9 +8,5 @@ function myFunction() {
 }
 hamb.addEventListener('click', myFunction);
 const navItem = document.querySelectorAll('.nav-link');
-function closeMenu() {
-  hamb.classList.remove('active');
-  navMenu.classList.remove('active');
-  headline.style.top = '92px';
-}
+
 navItem.forEach((n) => n.addEventListener('click', closeMenu));
