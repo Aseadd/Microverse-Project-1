@@ -30,16 +30,22 @@
 }
 
 .welcome {
+  display: block;
   margin-left: 5px;
+}
+
+.logo-text {
+  color: green;
+  font-size: 32px;
 }
 
 .menu-item {
   display: block;
-  position: fixed;
+  position: absolute;
   top: 5rem;
   flex-direction: column;
   width: 100%;
-  height: 100%;
+  height: 200px;
   left: -100%;
   border-radius: 10px;
   transition: 0.3s;
@@ -53,7 +59,24 @@
   font-weight: 600;
   line-height: 44px;
   background: #fff;
-  z-index: 100;
+  min-height: 100px;
+  z-index: 1;
+}
+
+.logo-text.active {
+  color: white;
+}
+
+.headline.active,
+.recent-works.active,
+.about-me.active,
+.card2.active,
+.bottom-social-media.active {
+  display: none;
+}
+
+.toolbar.active {
+  max-height: 200px;
 }
 
 .menu-lists {
@@ -1286,6 +1309,7 @@ button {
     justify-content: space-between;
     padding: 0 10px;
     align-items: center;
+    height: 60px;
   }
 
   .menu-item {
@@ -1297,7 +1321,7 @@ button {
     left: 50%;
     top: 0;
     padding: 1rem 5rem;
-    height: fit-content;
+    height: 50px;
     width: fit-content;
     margin-bottom: 0;
   }
