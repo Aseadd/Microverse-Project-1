@@ -13,16 +13,21 @@
 
 <body>
   <main class="toolbar">
-    <div class="nav-menu">
-      <h4 class="welcome"><a href="#">Welcome</a></h4>
-      <ul class="menu-item">
-        <li class="menu-lists"><a href="#">Projects </a></li>
-        <li class="menu-lists"><a href="#">About</a></li>
-        <li class="menu-lists"><a href="#"> Contact</a></li>
+    <nav class="nav-menu">
+      <h4 class="welcome"><a href="#" class='logo-text'>Welcome</a></h4>
+      <ul class='menu-item'>
+        <li class="menu-lists"><a href="#Project" class='nav-link'>Projects </a></li>
+        <li class="menu-lists"><a href="#About" class='nav-link'>About</a></li>
+        <li class="menu-lists"><a href="#Contact" class='nav-link'> Contact</a></li>
       </ul>
-      <a href="#" class="menu-icon">
-        <i class="fa fa-bars"></i></a>
-    </div>
+      <!-- <a href="#" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a> -->
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+    </nav>
 
     <section class="headline">
       <div class="primary-text">
@@ -43,7 +48,7 @@
         </ul>
       </div>
     </section>
-    <section class="recent-works">
+    <section class="recent-works" id='Project'>
       <div class="project-text">
         <h1 class="projects">
           My Recent Works
@@ -245,7 +250,7 @@
         </div>
       </div>
     </section>
-    <section class="about-me">
+    <section class="about-me" id='About'>
       <div class="information">
         <h3 class="aboutme-text">
           About me
@@ -372,7 +377,7 @@
         </div>
       </div>
     </section>
-    <section class="card2">
+    <section class="card2" id='Contact'>
       <p id="contact-title">
         I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
       </p>
@@ -403,5 +408,6 @@
         </div>
     </section>
   </main>
+  <script src="validation.js"></script>
 </body>
 </html>
