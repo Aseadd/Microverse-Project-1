@@ -1313,8 +1313,6 @@ h4 {
   top: 50%;
   left: 50%;
   height: 100%;
-
-  /* bottom: -200%; */
   transform: translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
   border: 1px solid #ebecf0;
@@ -1322,7 +1320,7 @@ h4 {
   border-radius: 4px;
   z-index: 101;
   background-color: white;
-  max-height: 99%;
+  max-height: 95%;
   width: 97%;
 }
 
@@ -1342,7 +1340,7 @@ h4 {
 }
 
 .modal-header .title {
-  font-size: 1rem;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -1364,6 +1362,7 @@ h4 {
 
 .modal-body {
   padding: 10px 15px;
+  bottom: 10px;
 }
 
 #overlay {
@@ -1389,15 +1388,16 @@ h4 {
   display: flex;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
   color: #172b4d;
 }
 
 .modal-hdr-btn h4 {
   margin: 0;
   color: #172b4d;
+  font-size: 20px;
 }
 
 .modal-hdr-btn div {
@@ -1407,11 +1407,11 @@ h4 {
 }
 
 .modal-hdr-btn div button {
-  margin-left: 40px;
-  width: 141px;
-  height: 48px;
+  margin-left: 30px;
+  width: 120px;
+  height: 45px;
   background: #36b37e;
-  border-radius: 8px;
+  border-radius: 5px;
   border: none;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -1419,7 +1419,8 @@ h4 {
   font-size: 15px;
   line-height: 20px;
   color: #fff;
-  margin-bottom: 0;
+  margin-top: 5px;
+  margin-bottom: 30px;
 }
 
 .modal-hdr-btn div button:active {
@@ -1432,6 +1433,8 @@ h4 {
   font-weight: 400;
   font-size: 14px;
   color: #344563;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .modal-tag {
@@ -1828,8 +1831,9 @@ h4 {
   }
 
   .modal {
-    max-height: 100%;
-    max-width: 70%;
+    max-height: 97%;
+    max-width: 65%;
+    bottom: 86px;
   }
 
   .modal-tag {
@@ -1858,9 +1862,10 @@ h4 {
 
   .modal-hdr-btn div {
     display: flex;
+    flex-direction: row;
     position: absolute;
-    align-items: end;
-    right: 15px;
+    align-items: center;
+    right: 10px;
     bottom: auto;
   }
 
@@ -1868,13 +1873,36 @@ h4 {
     margin: 0;
     width: 60%;
     color: #172b4d;
+    font-size: 22px;
+  }
+
+  .modal-hdr-btn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal-title {
+    width: 500px;
+  }
+
+  .modal-btns {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .modal-hdr-btn div button {
+    width: 110px;
+    height: 40px;
   }
 
   .modal-body p {
-    margin-top: 20px;
+    margin: 10px 0 10px 0;
     color: #344563;
     align-items: center;
     font-size: 16px;
+    font-family: 'inter',serif;
   }
 
   .email-checker .error {

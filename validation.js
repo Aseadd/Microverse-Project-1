@@ -11,7 +11,6 @@ const toolbar = document.querySelector('.toolbar');
 function myFunction() {
   hamb.classList.toggle('active');
   navMenu.classList.toggle('active');
-  // headline.style.top = '200px';
   welcome.classList.toggle('active');
   headline.classList.toggle('active');
   recentWorks.classList.toggle('active');
@@ -19,7 +18,6 @@ function myFunction() {
   contact.classList.toggle('active');
   footer.classList.toggle('active');
   toolbar.classList.toggle('active');
-  // welcome.style.color = 'white';
 }
 hamb.addEventListener('click', myFunction);
 const navItem = document.querySelectorAll('.nav-link');
@@ -35,7 +33,6 @@ function closeMenu() {
   footer.classList.remove('active');
   toolbar.classList.remove('active');
   headline.style.top = '92px';
-  // welcome.style.color = 'black';
 }
 
 navItem.forEach((n) => n.addEventListener('click', closeMenu));
@@ -97,7 +94,7 @@ const projects = [
     name: 'Keeping track of hundreds of components',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
-    image: 'images/Medipro.png',
+    image: 'images/5G.png',
     technologies: [
       'Codekit',
       'GitHub',
@@ -129,7 +126,7 @@ const projects = [
     name: 'Keeping track of hundreds of components',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
-    image: 'images/Medipro.png',
+    image: 'images/5G.png',
     technologies: [
       'Codekit',
       'GitHub',
@@ -158,10 +155,10 @@ const projects = [
     Source: 'https://github.com/Aseadd/Microverse-Project-1',
   },
   {
-    name: 'Personally controlled electronic health system',
+    name: ' Electronic health system',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
-    image: 'images/Medipro.png',
+    image: 'images/5G.png',
     technologies: [
       'Codekit',
       'GitHub',
@@ -191,9 +188,7 @@ openModalButtons.forEach((button) => {
         ).innerHTML = `<li><p>${projects[0].technologies[0]}</p></li>
                     <li><p>${projects[0].technologies[1]}</p></li>
                     <li><p>${projects[0].technologies[2]}</p></li>
-                    <li><p>${projects[0].technologies[3]}</p></li>
-                    <li><p>${projects[0].technologies[4]}</p></li>
-                    <li><p>${projects[0].technologies[5]}</p></li>`),
+                   `),
         (document.getElementById('modal-description').innerHTML =
           projects[0].description)
       );
@@ -211,9 +206,7 @@ openModalButtons.forEach((button) => {
         ).innerHTML = `<li><p>${projects[1].technologies[0]}</p></li>
                       <li><p>${projects[1].technologies[1]}</p></li>
                       <li><p>${projects[1].technologies[2]}</p></li>
-                      <li><p>${projects[1].technologies[3]}</p></li>
-                      <li><p>${projects[1].technologies[4]}</p></li>
-                      <li><p>${projects[1].technologies[5]}</p></li>`),
+                      `),
         (document.getElementById('modal-description').innerHTML =
           projects[1].description)
       );
@@ -231,9 +224,7 @@ openModalButtons.forEach((button) => {
         ).innerHTML = `<li><p>${projects[2].technologies[0]}</p></li>
                         <li><p>${projects[2].technologies[1]}</p></li>
                         <li><p>${projects[2].technologies[2]}</p></li>
-                        <li><p>${projects[2].technologies[3]}</p></li>
-                        <li><p>${projects[2].technologies[4]}</p></li>
-                        <li><p>${projects[2].technologies[5]}</p></li>`),
+                       `),
         (document.getElementById('modal-description').innerHTML =
           projects[2].description)
       );
@@ -251,9 +242,7 @@ openModalButtons.forEach((button) => {
         ).innerHTML = `<li><p>${projects[3].technologies[0]}</p></li>
                           <li><p>${projects[3].technologies[1]}</p></li>
                           <li><p>${projects[3].technologies[2]}</p></li>
-                          <li><p>${projects[3].technologies[3]}</p></li>
-                          <li><p>${projects[3].technologies[4]}</p></li>
-                          <li><p>${projects[3].technologies[5]}</p></li>`),
+                          `),
         (document.getElementById('modal-description').innerHTML =
           projects[3].description)
       );
@@ -271,9 +260,7 @@ openModalButtons.forEach((button) => {
         ).innerHTML = `<li><p>${projects[4].technologies[0]}</p></li>
                             <li><p>${projects[4].technologies[1]}</p></li>
                             <li><p>${projects[4].technologies[2]}</p></li>
-                            <li><p>${projects[4].technologies[3]}</p></li>
-                            <li><p>${projects[4].technologies[4]}</p></li>
-                            <li><p>${projects[4].technologies[5]}</p></li>`),
+                            `),
         (document.getElementById('modal-description').innerHTML =
           projects[4].description)
       );
@@ -322,6 +309,5 @@ const validateEmail = () => {
   return true;
 };
 contactForm.addEventListener('submit', (e) => {
-  //e.preventDefault();
   validateEmail();
 });
