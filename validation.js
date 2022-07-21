@@ -176,110 +176,98 @@ openModalButtons.forEach((button) => {
   button.addEventListener('click', (event) => {
     if (event.currentTarget.classList[0] === 'project-1') {
       console.log(
-        (document.getElementById('project-image-desktop').src =
-          projects[0].image),
+        (document.getElementById('project-image-desktop').src = projects[0].image),
         (document.getElementById('modal-title').innerHTML = projects[0].name),
         (document.getElementById(
-          'modal-btns'
+          'modal-btns',
         ).innerHTML = `<button action="${projects[0].Live}" type="submit">See Live <img class='popup-btn-icon' src="images/Icon - Live.svg" alt="arrow icon"></button>
                       <button action="${projects[0].Source}" type="submit">See Source <img class='popup-btn-icon' src="images/Icon -GitHub.svg" alt="github icon">  </button>`),
         (document.getElementById(
-          'modal-tag'
+          'modal-tag',
         ).innerHTML = `<li><p>${projects[0].technologies[0]}</p></li>
                     <li><p>${projects[0].technologies[1]}</p></li>
                     <li><p>${projects[0].technologies[2]}</p></li>
                    `),
-        (document.getElementById('modal-description').innerHTML =
-          projects[0].description)
+        (document.getElementById('modal-description').innerHTML = projects[0].description),
       );
     } else if (event.currentTarget.classList[0] === 'project-2') {
       console.log(
-        (document.getElementById('project-image-desktop').src =
-          projects[1].image),
+        (document.getElementById('project-image-desktop').src = projects[1].image),
         (document.getElementById('modal-title').innerHTML = projects[1].name),
         (document.getElementById(
-          'modal-btns'
+          'modal-btns',
         ).innerHTML = `<button action="${projects[1].Live}" type="submit">See Live <img class='popup-btn-icon' src="images/Icon - Live.svg" alt="arrow icon"></button>
                       <button action="${projects[1].Source}" type="submit">See Source <img class='popup-btn-icon' src="images/Icon -GitHub.svg" alt="github icon">  </button>`),
         (document.getElementById(
-          'modal-tag'
+          'modal-tag',
         ).innerHTML = `<li><p>${projects[1].technologies[0]}</p></li>
                       <li><p>${projects[1].technologies[1]}</p></li>
                       <li><p>${projects[1].technologies[2]}</p></li>
                       `),
-        (document.getElementById('modal-description').innerHTML =
-          projects[1].description)
+        (document.getElementById('modal-description').innerHTML = projects[1].description),
       );
     } else if (event.currentTarget.classList[0] === 'project-3') {
       console.log(
-        (document.getElementById('project-image-desktop').src =
-          projects[2].image),
+        (document.getElementById('project-image-desktop').src = projects[2].image),
         (document.getElementById('modal-title').innerHTML = projects[2].name),
         (document.getElementById(
-          'modal-btns'
+          'modal-btns',
         ).innerHTML = `<button action="${projects[2].Live}" type="submit">See Live <img class='popup-btn-icon' src="images/Icon - Live.svg" alt="arrow icon"></button>
                       <button action="${projects[2].Source}" type="submit">See Source <img class='popup-btn-icon' src="images/Icon -GitHub.svg" alt="github icon">  </button>`),
         (document.getElementById(
-          'modal-tag'
+          'modal-tag',
         ).innerHTML = `<li><p>${projects[2].technologies[0]}</p></li>
                         <li><p>${projects[2].technologies[1]}</p></li>
                         <li><p>${projects[2].technologies[2]}</p></li>
                        `),
-        (document.getElementById('modal-description').innerHTML =
-          projects[2].description)
+        (document.getElementById('modal-description').innerHTML = projects[2].description),
       );
     } else if (event.currentTarget.classList[0] === 'project-4') {
       console.log(
-        (document.getElementById('project-image-desktop').src =
-          projects[3].image),
+        (document.getElementById('project-image-desktop').src = projects[3].image),
         (document.getElementById('modal-title').innerHTML = projects[3].name),
         (document.getElementById(
-          'modal-btns'
+          'modal-btns',
         ).innerHTML = `<button action="${projects[3].Live}" type="submit">See Live <img class='popup-btn-icon' src="images/Icon - Live.svg" alt="arrow icon"></button>
                       <button action="${projects[3].Source}" type="submit">See Source <img class='popup-btn-icon' src="images/Icon -GitHub.svg" alt="github icon">  </button>`),
         (document.getElementById(
-          'modal-tag'
+          'modal-tag',
         ).innerHTML = `<li><p>${projects[3].technologies[0]}</p></li>
                           <li><p>${projects[3].technologies[1]}</p></li>
                           <li><p>${projects[3].technologies[2]}</p></li>
                           `),
-        (document.getElementById('modal-description').innerHTML =
-          projects[3].description)
+        (document.getElementById('modal-description').innerHTML = projects[3].description),
       );
     } else if (event.currentTarget.classList[0] === 'project-5') {
       console.log(
-        (document.getElementById('project-image-desktop').src =
-          projects[4].image),
+        (document.getElementById('project-image-desktop').src = projects[4].image),
         (document.getElementById('modal-title').innerHTML = projects[4].name),
         (document.getElementById(
-          'modal-btns'
+          'modal-btns',
         ).innerHTML = `<button action="${projects[4].Live}" type="submit">See Live <img class='popup-btn-icon' src="images/Icon - Live.svg" alt="arrow icon"></button>
                       <button action="${projects[4].Source}" type="submit">See Source <img class='popup-btn-icon' src="images/Icon -GitHub.svg" alt="github icon">  </button>`),
         (document.getElementById(
-          'modal-tag'
+          'modal-tag',
         ).innerHTML = `<li><p>${projects[4].technologies[0]}</p></li>
                             <li><p>${projects[4].technologies[1]}</p></li>
                             <li><p>${projects[4].technologies[2]}</p></li>
                             `),
-        (document.getElementById('modal-description').innerHTML =
-          projects[4].description)
+        (document.getElementById('modal-description').innerHTML = projects[4].description),
       );
     } else if (event.currentTarget.classList[0] === 'project-6') {
       console.log(
-        (document.getElementById('project-image-desktop').src =
-          projects[5].image),
+        (document.getElementById('project-image-desktop').src = projects[5].image),
         (document.getElementById('modal-title').innerHTML = projects[5].name),
         (document.getElementById(
-          'modal-btns'
+          'modal-btns',
         ).innerHTML = `<button action="${projects[5].Live}" type="submit">See Live <img class='popup-btn-icon' src="images/Icon - Live.svg" alt="arrow icon"></button>
                       <button action="${projects[5].Source}" type="submit">See Source <img class='popup-btn-icon' src="images/Icon -GitHub.svg" alt="github icon">  </button>`),
         (document.getElementById(
-          'modal-tag'
+          'modal-tag',
         ).innerHTML = `<li><p>${projects[5].technologies[0]}</p></li>
                               <li><p>${projects[5].technologies[1]}</p></li>
                               <li><p>${projects[5].technologies[2]}</p></li>`),
-        (document.getElementById('modal-description').innerHTML =
-          projects[5].description)
+        (document.getElementById('modal-description').innerHTML = projects[5].description),
       );
     }
   });
@@ -288,8 +276,7 @@ openModalButtons.forEach((button) => {
 const contactForm = document.getElementById('form');
 const email = document.getElementById('email');
 const isValid = (email) => {
-  const check =
-    /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-z\-0-9]+\.)+[a-z]{2,}))$/;
+  const check = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-z\-0-9]+\.)+[a-z]{2,}))$/;
   return check.test(String(email));
 };
 const setError = (element, message) => {
@@ -308,6 +295,6 @@ const validateEmail = () => {
   }
   return true;
 };
-contactForm.addEventListener('submit', (e) => {
+contactForm.addEventListener('submit', () => {
   validateEmail();
 });
