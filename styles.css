@@ -1493,8 +1493,13 @@ h4 {
   color: #ff3860;
   font-size: 20px;
   height: 13px;
-  bottom: 220px;
+  bottom: 250px;
   left: 150px;
+  background: rgb(192, 187, 187);
+  border: 1px solid black;
+  height: 25px;
+  width: 360px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
