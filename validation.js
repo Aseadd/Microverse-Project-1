@@ -284,3 +284,33 @@ openModalButtons.forEach((button) => {
     }
   });
 });
+
+const contactForm = document.getElementById('form');
+const email = document.getElementById('email');
+const isValid = (email) => {
+  const check =
+    /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-z\-0-9]+\.)+[a-z]{2,}))$/;
+  return check.test(String(email));
+};
+const setError = (element, message) => {
+  const emailChecker = element.parentElement;
+  const errorDisplay = emailChecker.querySelector('.error');
+
+  errorDisplay.innerText = message;
+  emailChecker.classList.add('error');
+  emailChecker.classList.remove('success');
+};
+const validateEmail = () => {
+  const emailValue = email.value.trim();
+  if (!isValid(emailValue)) {
+    setError(email, 'Invalid email address');
+    return false;
+  } else if (emailValue != emailValue.toLowerCase()) {
+    setError(email, 'Do not use capital letters for email');
+    return false;
+  }
+  return true;
+};
+contactForm.addEventListener('submit', () => {
+  validateEmail();
+});
