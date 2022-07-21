@@ -1827,16 +1827,6 @@ h4 {
     display: none;
   }
 
-  .popup {
-    width: 600vh;
-    height: 150vh;
-    background: #6b778c;
-    padding: 20px;
-    border-radius: 10px;
-    position: relative;
-    left: 0;
-  }
-
   .modal {
     max-height: 100%;
     max-width: 70%;

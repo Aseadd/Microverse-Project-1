@@ -322,6 +322,6 @@ const validateEmail = () => {
   return true;
 };
 contactForm.addEventListener('submit', (e) => {
-  e.preventDefault();
+  //e.preventDefault();
   validateEmail();
 });
