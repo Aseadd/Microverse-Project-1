@@ -39,7 +39,6 @@ function closeMenu() {
 }
 
 navItem.forEach((n) => n.addEventListener('click', closeMenu));
-welcome.style.color = 'white';
 
 const openModalButtons = document.querySelectorAll('[data-modal-target]');
 const closeModalButtons = document.querySelectorAll('[data-close-button]');
