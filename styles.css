@@ -1237,11 +1237,6 @@ h4 {
   border: rgb(rgb(255, 208, 0), green, blue);
 }
 
-button {
-  align-items: center;
-  text-align: center;
-}
-
 .text-boxs {
   align-items: center;
   margin-left: auto;
@@ -1295,6 +1290,208 @@ button {
   padding: 10px;
   left: 10px;
   top: 6290px;
+}
+
+.github-icon {
+  width: 20px;
+  height: 15px;
+  align-items: flex-end;
+}
+
+.popup-btn:hover {
+  background-color: rebeccapurple;
+  color: #fff;
+}
+
+.project-detail-image {
+  width: 100%;
+  height: 220px;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+
+  /* bottom: -200%; */
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid #ebecf0;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  border-radius: 4px;
+  z-index: 101;
+  background-color: white;
+  max-height: 99%;
+  width: 97%;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.modal-header img {
+  max-width: 100%;
+  max-height: 500px;
+}
+
+.modal-header .title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  height: 26px;
+  width: 26px;
+  border: none;
+  border-radius: 8px;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #67798e;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.modal-body {
+  padding: 10px 15px;
+}
+
+#overlay {
+  backdrop-filter: blur(8px);
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  z-index: 100;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal-hdr-btn {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.modal-hdr-btn h4 {
+  margin: 0;
+  color: #172b4d;
+}
+
+.modal-hdr-btn div {
+  display: flex;
+  position: absolute;
+  bottom: 3px;
+}
+
+.modal-hdr-btn div button {
+  margin-left: 40px;
+  width: 141px;
+  height: 48px;
+  background: #36b37e;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.modal-hdr-btn div button:active {
+  background-color: #008552;
+}
+
+.modal-body p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #344563;
+}
+
+.modal-tag {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  justify-content: start;
+  grid-template-columns: auto auto auto;
+  width: max-content;
+}
+
+.modal-tag li {
+  margin-right: 8px;
+  margin-top: 15px;
+  background: #ebecf0;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #344563;
+}
+
+.modal-tag li p {
+  margin: 8px 12px;
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  max-width: 70%;
+}
+
+.popup-btn-icon {
+  height: 14px;
+}
+
+.email-checker {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-checker #email:focus {
+  outline: 0;
+}
+
+.email-checker.error input {
+  border: 1px solid #ff3860;
+}
+
+.email-checker .error {
+  position: absolute;
+  color: #ff3860;
+  font-size: 20px;
+  height: 13px;
+  bottom: 220px;
+  left: 150px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -1628,5 +1825,71 @@ button {
 
   .nav-menu .icon {
     display: none;
+  }
+
+
+  .popup {
+    width: 600vh;
+    height: 150vh;
+    background: #6b778c;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    left: 0;
+  }
+
+  .modal {
+    max-height: 100%;
+    max-width: 70%;
+  }
+
+  .modal-tag {
+    grid-template-columns: auto auto auto auto auto auto;
+  }
+
+  .project-image {
+    object-fit: cover;
+    height: 350px;
+  }
+
+  .modal-header {
+    margin-top: 10px;
+    bottom: 50%;
+  }
+
+  .modal-header .close-button {
+    top: -5px;
+  }
+
+  .modal-hdr-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .modal-hdr-btn div {
+    display: flex;
+    position: absolute;
+    align-items: end;
+    right: 15px;
+    bottom: auto;
+  }
+
+  .modal-hdr-btn h4 {
+    margin: 0;
+    width: 60%;
+    color: #172b4d;
+  }
+
+  .modal-body p {
+    margin-top: 20px;
+    color: #344563;
+    align-items: center;
+    font-size: 16px;
+  }
+
+  .email-checker .error {
+    bottom: -20px;
+    left: 40%;
   }
 }
