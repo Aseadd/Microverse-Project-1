@@ -303,14 +303,13 @@ const setError = (element, message) => {
 const validateEmail = () => {
   const emailValue = email.value.trim();
   if (!isValid(emailValue)) {
-    setError(email, 'Invalid email address');
     return false;
   } else if (emailValue != emailValue.toLowerCase()) {
-    setError(email, 'Do not use capital letters for email');
     return false;
   }
   return true;
 };
+
 contactForm.addEventListener('submit', () => {
   validateEmail();
 });
