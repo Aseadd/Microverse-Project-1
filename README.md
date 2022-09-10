@@ -1,66 +1,66 @@
 # Microverse-Project-1
 
-## Description
+![Microverse](https://img.shields.io/badge/Microverse-blueviolet) ![HTML](https://img.shields.io/badge/-HTML-orange) ![CSS](https://img.shields.io/badge/-CSS-blue) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow) 
 
-This website is my personal portoflio. I have developed number of websites and the projects and my achievents are available here
+# Math-Magicians:
 
-## Built With
-
-- HTML
-
-## Live Demo
-
-[Live Demo Link](https://aseadd.github.io)
+- This is a simple website that describes my portfolio. It contains projects I built and contact information to reach out to me 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-### Project Setup
-
-To get a local copy and running follow this steps
-prerequisites
-you need to have code editor
-Make sure NodeJs and NPM are installed
+- VIsual Studio Code.
 
 ### Setup
 
-1.  Clone the repo into your local machine
-    `git clone https://github.com/Aseadd/Microverse-Project-1
-2.  open terminal and cd in the project
-    `cd Microverse-Project-1
-3.  Open the index html in your browser
-    `open index.html
+- Open the terminal on your computer
+- Navigate through directories using [change directory (cd)](https://www.howtogeek.com/659411/how-to-change-directories-in-command-prompt-on-windows-10) command to where you want to clone the repository.
+- Type the following command then press ENTER:
+
+```sh
+  git clone https://github.com/Aseadd_/Microverse-Project-1.git
+```
+
+- The terminal will send to you information about your download.
+- Type the following command then press ENTER:
+
+```sh
+  cd Microverse-Project-1
+```
+
+- **Type the following lists of commands and press ENTER after each command:**
+
+- **Open folder in VSC**
+
+```sh
+  code .
+```
+
+## Built With
+
+- **HTML/CSS & JS best practices:** Correct use of tags, elements, properties and ES6 syntax.
+- **GitHub flow:** Correct use of Branches for deployment and features development.
+- **Linters Check:** Local and Pull Request check for errors, bugs and stylistic errors in code.
+
+## 🌎 Live Demo:
+
+- [Portfolio](https://aseadd.github.io)
 
 ## Authors
 
-👤 **Author1**
+### 👤 Addis Tsega
 
-- GitHub: [@githubhandle](https://github.com/Aseadd)
-- Twitter: [@twitterhandle](https://twitter.com/adaTsega)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/addistsega)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+- GitHub: [@Aseadd](https://github.com/Aseadd)
+- Twitter: [@AdaTsega](https://twitter.com/AdaTsega)
+- LinkedIn: [Addis Tsega](https://www.linkedin.com/in/addis-tsega-422789195/)
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT] (/MIT.md) licensed.
+- This project is [MIT](./LICENSE) licensed.
