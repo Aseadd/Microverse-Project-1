@@ -10,6 +10,16 @@
 
 To get a local copy up and running follow these simple steps.
 
+## Built With
+
+- **HTML/CSS & JS best practices:** Correct use of tags, elements, properties and ES6 syntax.
+- **GitHub flow:** Correct use of Branches for deployment and features development.
+- **Linters Check:** Local and Pull Request check for errors, bugs and stylistic errors in code.
+
+## 🌎 Live Demo:
+
+- [Portfolio](https://aseadd.github.io)
+
 ### Prerequisites
 
 - VIsual Studio Code.
@@ -36,16 +46,6 @@ To get a local copy up and running follow these simple steps.
 ```sh
   code .
 ```
-
-## Built With
-
-- **HTML/CSS & JS best practices:** Correct use of tags, elements, properties and ES6 syntax.
-- **GitHub flow:** Correct use of Branches for deployment and features development.
-- **Linters Check:** Local and Pull Request check for errors, bugs and stylistic errors in code.
-
-## 🌎 Live Demo:
-
-- [Portfolio](https://aseadd.github.io)
 
 ## Authors
 
