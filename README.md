@@ -31,8 +31,6 @@ To get a local copy up and running follow these simple steps.
   cd Microverse-Project-1
 ```
 
-- **Type the following lists of commands and press ENTER after each command:**
-
 - **Open folder in VSC**
 
 ```sh
