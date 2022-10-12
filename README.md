@@ -2,7 +2,6 @@
 
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet) ![HTML](https://img.shields.io/badge/-HTML-orange) ![CSS](https://img.shields.io/badge/-CSS-blue) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow) 
 
-# Math-Magicians:
 
 - This is a simple website that describes my portfolio. It contains projects I built and contact information to reach out to me 
 
