@@ -75,73 +75,73 @@ closeModalButtons.forEach((button) => {
 
 const projects = [
   {
-    name: 'Keeping track of hundreds of components',
+    name: 'Space Travellers Hub',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
+      'A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. The data is fetched from a SpaceX API in real time.',
     image: 'images/5G.png',
     technologies: [
-      'Codekit',
+      'React',
       'GitHub',
       'JavaScript',
       'Bootstrap',
-      'Terminal',
+      'Redux',
       'Codepen',
     ],
-    Live: 'https://github.com/Aseadd/Microverse-Project-1',
-    Source: 'https://github.com/Aseadd/Microverse-Project-1',
+    Live: 'https://github.com/Aseadd/space-travelers-hub',
+    Source: 'https://github.com/Aseadd/space-travelers-hub',
   },
   {
-    name: 'Keeping track of hundreds of components',
+    name: 'Cryptocurrency Metrics Webapp',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
+      ' A web application for individuals to check the current status of crypto market values. The data is fetched from a Coinstate API in real time.',
     image: 'images/5G.png',
     technologies: [
-      'Codekit',
+      'React',
       'GitHub',
       'JavaScript',
       'Bootstrap',
-      'Terminal',
+      'Redux',
       'Codepen',
     ],
-    Live: 'https://github.com/Aseadd/Microverse-Project-1',
-    Source: 'https://github.com/Aseadd/Microverse-Project-1',
+    Live: 'https://development--rad-licorice-2d6496.netlify.app/',
+    Source: 'https://github.com/Aseadd/metrics-webapp-crypto',
   },
   {
-    name: 'Keeping track of hundreds of components',
+    name: 'Book Store Web Application',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
+      'This Web Application is single page application developed with React that add, remove, store books into an API.',
     image: 'images/5G.png',
     technologies: [
-      'Codekit',
+      'React',
       'GitHub',
       'JavaScript',
       'Bootstrap',
-      'Terminal',
+      'Redux',
       'Codepen',
     ],
-    Live: 'https://github.com/Aseadd/Microverse-Project-1',
-    Source: 'https://github.com/Aseadd/Microverse-Project-1',
+    Live: 'https://github.com/Aseadd/bookstore-app',
+    Source: 'https://github.com/Aseadd/bookstore-app',
   },
   {
-    name: 'Keeping track of hundreds of components',
+    name: 'Math Magician',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
+      'This Web Application is single page application developed with React that makes simple calculations and read random math related quotes',
     image: 'images/5G.png',
     technologies: [
-      'Codekit',
+      'React',
       'GitHub',
       'JavaScript',
       'Bootstrap',
       'Terminal',
       'Codepen',
     ],
-    Live: 'https://github.com/Aseadd/Microverse-Project-1',
-    Source: 'https://github.com/Aseadd/Microverse-Project-1',
+    Live: 'https://github.com/Aseadd/math-magicians',
+    Source: 'https://github.com/Aseadd/math-magicians',
   },
   {
-    name: 'Keeping track of hundreds of components',
+    name: 'Meal Web App',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
+      'This Web Application is based on an external API that fetches the list of meals and stores comments and likes rated by users of the web application.',
     image: 'images/5G.png',
     technologies: [
       'Codekit',
@@ -151,13 +151,13 @@ const projects = [
       'Terminal',
       'Codepen',
     ],
-    Live: 'https://github.com/Aseadd/Microverse-Project-1',
-    Source: 'https://github.com/Aseadd/Microverse-Project-1',
+    Live: 'https://aseadd.github.io/Capstone2/dist/',
+    Source: 'https://github.com/Aseadd/capstone2',
   },
   {
-    name: ' Electronic health system',
+    name: ' web Development Bootcamp Website',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
+      'This website is a web development bootcamp webpage. Its goal is to enable people around the world to have access to aspire remote jobs and to make them learn web development online regardless of the location .',
     image: 'images/5G.png',
     technologies: [
       'Codekit',
@@ -167,8 +167,8 @@ const projects = [
       'Terminal',
       'Codepen',
     ],
-    Live: 'https://github.com/Aseadd/Microverse-Project-1',
-    Source: 'https://github.com/Aseadd/Microverse-Project-1',
+    Live: 'https://github.com/Aseadd/Bootcamp-Project',
+    Source: 'https://github.com/Aseadd/Bootcamp-Project',
   },
 ];
 
