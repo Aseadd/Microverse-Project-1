@@ -17,7 +17,7 @@ To get a local copy up and running follow these simple steps.
 
 ## 🌎 Live Demo:
 
-- [Portfolio](https://aseadd.github.io)
+- [Portfolio](https://aseadd.github.io/Microverse-Project-1/
 
 ### Prerequisites
 
